@@ -8483,6 +8483,7 @@ static bool load_kernel (hashcat_ctx_t *hashcat_ctx, hc_device_param_t *device_p
       nvrtc_options[1] = "--device-as-default-execution-space";
       nvrtc_options[2] = "--gpu-architecture";
 
+
       if (device_param->sm_major > 7)
       {
         // https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/index.html#virtual-architecture-feature-list
